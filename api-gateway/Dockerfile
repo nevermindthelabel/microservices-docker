@@ -1,9 +1,7 @@
 FROM node:14
 
-COPY . /opt/app
-
 WORKDIR /opt/app
 
-RUN npm i 
+RUN npm i
 
-CMD [ "npm" "start" ]
+CMD [ "npm", "start" ]
